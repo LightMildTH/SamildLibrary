@@ -86,7 +86,7 @@ function library:CreateTab(text, desc, mode)
     mode = mode or false
 	
     if mode then
-        theme = theme
+        theme = dark_theme
     elseif mode == nil then
         theme = _G.CustomTheme
     end
